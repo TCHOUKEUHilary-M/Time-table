@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+       <style>
+           body{
+               width: auto;
+               margin: auto;
+               width: 1000px;
+               flex-wrap: wrap;
+           }
+           span{
+               color: yellowgreen;
+           }
+           h2,h3{
+                    text-align: center;
+                    text-transform: capitalize;
+                    font-family: 'Courier New', Courier, monospace;
+              }
+              table{
+                  border-collapse: collapse;
+                  flex-wrap: wrap;
+              }
+            th,td{
+             border: 2px solid black;
+              border-collapse: collapse;
+              margin: auto;
+              text-align: center;
+              padding: 1em;
+              text-transform: capitalize;
+                }
+            thead,tfoot{background-color: #4FC3F7;}
+            td:hover {
+                       color: #ec8916f5;
+                        background-color: aqua;}
+                        #none{
+                            border: 0px;
+                           background-color:white;}
+     </style>
+</head>
+<body>
+
+        <h2 style="'TeX Gyre Chorus' ;">Mon incroyable emploi de Temps<h2>
+        <h3 style="text-decoration:underline;">Emploi de temps du 23 au 28 mai<h3>
+      <table>
+        <colgroup>
+            <col span="1" style="background-color:#4FC3F7";>
+            <col span="5" ;>
+            <col span="7" style="background-color:rgb(252, 39, 11)";>
+        </colgroup>
+        <thead >
+            <td id="none"></td>
+           <th>Lundi</th>
+           <th>Mardi</th>
+           <th>Mercredi</th>
+           <th>Jeudi</th>
+           <th>Vendredi</th>
+           <th>Samedi</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>8h-9h</td>
+        <td rowspan="2">Cours CSS 3
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">Cours Html5
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">TP HTML5
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">TP CSS 3
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">Cours CSS 3
+            <BR><span>Polytech</span>
+            </td>
+         <td></td>
+        
+    </tr>
+    <tr>
+        <td >9h-10h</td>
+        <td rowspan="2">recherche  ppersonnel<BR>Html5 et CSS3</td>
+    </tr>
+    <tr>
+        <td>10h-11h</td>
+        <td rowspan="2">Cours CSS 3
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">TP HTML5
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2" class="time">TP cours HTML5
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">TP cours CSS 3
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">Tp Cours CSS 3
+            <BR><span>Polytech</span>
+            </td>
+    <tr>
+        <td>11h-12h</td>
+        <td>pratique <br>html5 et css3 
+            <BR><span>Maison</span>
+            </td>
+    <tr>
+        <td>12h-13h</td>
+        <td colspan="6" style="background-color: yellow">Pause</td>
+    </tr>
+    <tr>
+        <td>13h-14h</td>
+        <td rowspan="2">Cours Html5
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">TP CSS 3
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">TP cours HTML5
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">TP cours CSS 3
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">TP cours CSS 3
+            <BR><span>Polytech</span>
+            </td>
+        <td rowspan="2">recherche  ppersonnel<BR>Html5 et CSS3 
+            <BR><span>Polytech</span>
+            </td>
+    </tr>
+    <tr>
+        <td>14h-15h</td>
+    </tr>
+    </tbody>
+    <tfoot>
+        <td colspan="7">made with love ❤️
+            <BR><span>Hilary</span>
+        </td>
+    </tfoot>
+</table>
+</body>
+</html>
